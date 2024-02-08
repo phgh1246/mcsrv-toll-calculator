@@ -57,6 +57,6 @@ func (dr *DataReceiver) wsReceiveLoop() {
 			data.Lat,
 			data.Long,
 		)
-		dr.msgch <- data
+		// dr.msgch <- data
 	}
 }
